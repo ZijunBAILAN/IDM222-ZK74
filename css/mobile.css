@@ -1,0 +1,58 @@
+@media only screen and (max-width:750px) {
+	body{background-color: rgb(250, 242, 229); overflow-x: hidden;}
+    .top{width: 100%;}
+    .container{width: 100%; }
+    .logo{font-size: 0.85rem;}
+    .top ul li{margin-left: 0;}
+    .top ul li a{font-size: 0.52rem;}
+    .banner-container{width: 100%;}
+    .show{width: 100%; flex-wrap: wrap;}
+    .pic5{margin: auto; margin-bottom: 0.92rem; width: 80%;}
+
+}
+
+@media (max-width: 768px) {
+    .logo{
+        line-height: 2rem;
+    }
+    .container .top .nav {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .container .top .nav.responsive {
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+        position: absolute;
+        top: 2.4rem;
+        right: .4rem;
+        background-color: #f1f1f1;
+        padding: .4rem;
+        border-radius: 4px;
+        z-index: 100;
+    }
+    .container .top .nav.responsive a{
+       height: 1.6rem;
+        text-decoration:none;
+
+    }
+    .container .top .nav.responsive a .outer{
+        top: 0;
+        position: relative;
+    }
+    .right-ico{
+        left:.8rem;
+    }
+    .right-text{
+        font-size: .8rem;
+        right: -.8rem;
+    }
+
+    .main1{width: 12rem !important; }
+    .banner ul{ width: 12rem;}
+    .banner ul li img{width: 12rem;}
+
+
+}

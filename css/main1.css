@@ -1,0 +1,6 @@
+.main1{width: 400px !important; height: 310px;}
+.banner ul{padding: 0px; display: flex; position: absolute; top: 0px; left: 0px; width: 400px;}
+.banner ul li img{width: 400px; height: 280px; border: none;}
+.banner ol{bottom: 0px;}
+.btn{margin-top: -10px;}
+.main1-ico{top: 350px; left: 333px;}
